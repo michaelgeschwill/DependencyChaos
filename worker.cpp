@@ -1,5 +1,13 @@
-#include "worker.h"
+/****************************************************************************
+**
+** Copyright (C) 2016 Michael Geschwill
+** Im Kleinen Eschle 21
+** 78054 Villingen-Schwenningen
+** hpmacher@gmail.com
+**
+****************************************************************************/
 
+#include "worker.h"
 
 Worker::Worker(QStringList *FileNames, QString rpath)
 {

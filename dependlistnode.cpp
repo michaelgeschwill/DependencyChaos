@@ -1,3 +1,12 @@
+/****************************************************************************
+**
+** Copyright (C) 2016 Michael Geschwill
+** Im Kleinen Eschle 21
+** 78054 Villingen-Schwenningen
+** hpmacher@gmail.com
+**
+****************************************************************************/
+
 #include "dependlistnode.h"
 
 DependListNode::DependListNode(const QList<QVariant> &data, DependListNode *parent)
