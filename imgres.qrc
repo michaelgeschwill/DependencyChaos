@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/imglist">
+        <file>img/Open-folder-info.png</file>
+        <file>img/edit-validated.png</file>
+        <file>img/buttondown.png</file>
+        <file>img/Refresh.png</file>
+        <file>img/Analysis.png</file>
+    </qresource>
+</RCC>
