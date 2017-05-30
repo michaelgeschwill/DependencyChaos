@@ -167,6 +167,7 @@ void MainWindow::on_treeView_clicked(const QModelIndex &index)
     ui->actionFix_Dependency->setEnabled(false);
     ui->actionFix_ID->setEnabled(false);
     ui->actionSearch_and_replace_in_depend->setEnabled(false);
+    ui->actionCheck_selected->setEnabled(false);
 
     if (!index.isValid())
         return;
@@ -179,6 +180,7 @@ void MainWindow::on_treeView_clicked(const QModelIndex &index)
         ui->actionFix_ID->setEnabled(true);
     } else {
         ui->actionFix_Dependency->setEnabled(true);
+        ui->actionCheck_selected->setEnabled(true);
     }
 }
 
@@ -271,5 +273,14 @@ void MainWindow::on_treeView_doubleClicked(const QModelIndex &)
 // Action for reload last selected files
 void MainWindow::on_actionRefresh_triggered()
 {
+    reload();
+}
+
+void MainWindow::on_actionCheck_selected_triggered()
+{
+    QString selectedFile = static_cast<DependListModel*>(ui->treeView->model())->getData(currentindex,4).toString();
+    disen(false);
+    lastFileList->clear();
+    lastFileList->append(selectedFile);
     reload();
 }

@@ -14,7 +14,7 @@ DependListModel::DependListModel(QObject *parent)
     : QAbstractItemModel(parent)
 {
     QList<QVariant> rootData;
-    rootData << "File" << "ID / Compatibility" << "Bits" << "Errors";
+    rootData << "File" << "ID / Compatibility" << "Bits" << "Errors" << "Found here";
     rootItem = new DependListNode(rootData);
 }
 

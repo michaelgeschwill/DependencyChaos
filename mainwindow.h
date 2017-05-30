@@ -49,6 +49,8 @@ private slots:
     void on_treeView_doubleClicked(const QModelIndex &);
     void on_actionRefresh_triggered();
 
+    void on_actionCheck_selected_triggered();
+
 private:
     QString currentrpath;
     QModelIndex currentindex;

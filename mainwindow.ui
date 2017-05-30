@@ -181,6 +181,7 @@
     </property>
     <addaction name="actionFix_ID"/>
     <addaction name="actionFix_Dependency"/>
+    <addaction name="actionCheck_selected"/>
     <addaction name="actionSearch_and_replace_in_depend"/>
    </widget>
    <widget class="QMenu" name="menuView">
@@ -213,6 +214,7 @@
    <addaction name="separator"/>
    <addaction name="actionFix_ID"/>
    <addaction name="actionFix_Dependency"/>
+   <addaction name="actionCheck_selected"/>
    <addaction name="separator"/>
    <addaction name="actionRefresh"/>
    <addaction name="separator"/>
@@ -305,6 +307,18 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionCheck_selected">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="imgres.qrc">
+     <normaloff>:/imglist/img/Analysis.png</normaloff>:/imglist/img/Analysis.png</iconset>
+   </property>
+   <property name="text">
+    <string>Check selected</string>
    </property>
   </action>
  </widget>
