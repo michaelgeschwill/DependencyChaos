@@ -1,6 +1,8 @@
 # DependencyChaos
 A visual dependency walker for MacOS Dylibs, Frameworks and Apps build with Qt5.8
 
+![Alt text](https://raw.githubusercontent.com/michaelgeschwill/DependencyChaos/master/Screenshot.png "DependencyChaos Samplescreen")
+
 # Release
 You can download prebuilded releases or build from code.
 
