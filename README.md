@@ -7,6 +7,7 @@ You simply select the desired files, the program then shows whether all dependen
 
 # Release
 You can download prebuilded releases or build from code.
+https://github.com/michaelgeschwill/DependencyChaos/releases
 
 # How to build
 Download or clone repository. Install Qt5.6 or higher. Set permissions to build.sh
